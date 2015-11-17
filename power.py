@@ -1,3 +1,4 @@
+ls
 import numpy as np
 from scipy import sparse
 import sys
@@ -9,4 +10,7 @@ def power(x):
 
 result = power(x)
 
-print "the power of", x, "is", result 
+print "the power of", x, "is", result
+
+def square_root(x):
+	return np.sqrt(x) 
